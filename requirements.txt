@@ -1,1 +1,25 @@
-streamlit>=1.26.0
+# Core Requirements
+streamlit==1.32.0
+ultralytics==8.1.0
+opencv-python==4.9.0.80
+numpy==1.26.0
+pandas==2.1.1
+plotly==5.18.0
+
+# Additional Computer Vision
+opencv-contrib-python==4.9.0.80
+scipy==1.11.3
+
+# Utility Packages
+python-dotenv==1.0.0
+tqdm==4.66.1
+seaborn==0.13.0
+matplotlib==3.8.0
+
+# Temporary File Handling
+tempfile==1.0.0
+
+# Optional (for potential future use)
+pyyaml==6.0.1  # For config files
+pymongo==4.5.0  # If using MongoDB
+sqlalchemy==2.0.23  # For database integration
