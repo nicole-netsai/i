@@ -6,6 +6,8 @@ numpy>=1.26.0
 pandas>=2.1.1
 plotly>=5.18.0
 opencv-python-headless==4.9.0.80
+opencv-python==4.9.0.80
+pyopengl==3.1.7
 
 # Computer Vision
 opencv-contrib-python>=4.9.0.80
