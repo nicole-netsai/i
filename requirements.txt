@@ -1,7 +1,12 @@
-rich>=10.14.0,<14.0.0  # Force compatible version for Streamlit
-streamlit>=1.28.0
-ultralytics>=8.1.0
-opencv-python-headless
-pandas
-pillow
+streamlit==1.32.0
+ultralytics==8.1.0
+opencv-python-headless==4.9.0.80
 numpy==1.26.0
+pandas==2.1.1
+plotly==5.18.0
+opencv-contrib-python==4.9.0.80
+scipy==1.11.3
+python-dotenv==1.0.0
+tqdm==4.66.1
+seaborn==0.13.0
+matplotlib==3.8.0
