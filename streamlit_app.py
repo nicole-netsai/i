@@ -1,5 +1,4 @@
 import streamlit as st
-import cv2
 try:
     import cv2
 except ImportError:
