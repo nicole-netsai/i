@@ -1,11 +1,5 @@
 import streamlit as st
-try:
-    import cv2
-except ImportError:
-    import sys
-    import os
-    os.system(f"{sys.executable} -m pip install opencv-python-headless")
-    import cv2
+import cv2
 import numpy as np
 import pandas as pd
 import os
